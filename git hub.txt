@@ -1,0 +1,37 @@
+BEGIN
+      prompt "Enter a number" and store in num
+      if(num mod 2==0)then
+              Display "Even number"
+      Else
+              Display "Odd number"
+      EndIf
+END
+
+BEGIN
+      prompt "Enter a number" and store in num
+      if(num>=18)then
+              Display "able to vote"
+      Else
+              Display "not able to vote"
+      EndIF
+END
+
+BEGIN 
+      PROMPT "Enter a number" and store in num
+                 While(num<=5)
+                Display "num"
+             num=num+1
+       END while
+END
+
+BEGIN 
+      Declare n as integer
+      for i in range 1 to 10
+      IF(num%2=0)
+      Display "number is Even"
+      ELSE
+      Display "number is Odd"
+END IF
+END FOR
+END
+
